@@ -23,7 +23,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 20vh 570vh 20vh;
+  grid-template-rows: 20vh 300vh 20vh;
   grid-template-columns: 100%;
 
   @media only screen and (max-width: 1000px) {
@@ -32,6 +32,10 @@ body {
 
   @media only screen and (max-width: 800px) {
     grid-template-rows: 20vh 215vh 20vh;
+  }
+
+  @media only screen and (max-width: 600px) {
+    grid-template-rows: 20vh 178vh 20vh;
   }
 }
 

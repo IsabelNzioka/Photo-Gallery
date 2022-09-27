@@ -19,7 +19,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 20vh 570vh 20vh;
+  grid-template-rows: 20vh 300vh 20vh;
   grid-template-columns: 100%; }
   @media only screen and (max-width: 1000px) {
     .container {
@@ -27,6 +27,9 @@ body {
   @media only screen and (max-width: 800px) {
     .container {
       grid-template-rows: 20vh 215vh 20vh; } }
+  @media only screen and (max-width: 600px) {
+    .container {
+      grid-template-rows: 20vh 178vh 20vh; } }
 
 .main {
   grid-row: 2;
@@ -40,6 +43,11 @@ body {
   @media only screen and (max-width: 700px) {
     .main {
       padding: 8rem 4rem; } }
+  @media only screen and (max-width: 600px) {
+    .main {
+      padding: 8rem 3rem;
+      grid-template-rows: repeat(14, 10vh);
+      grid-gap: 0.8rem; } }
   .main img {
     width: 100%;
     height: 100%;
@@ -61,6 +69,9 @@ body {
   @media only screen and (max-width: 800px) {
     .main1 {
       grid-row: 1 / span 5; } }
+  @media only screen and (max-width: 600px) {
+    .main1 {
+      grid-row: 1 / span 4; } }
 
 .main2 {
   background-color: #21c251;
@@ -69,6 +80,9 @@ body {
   @media only screen and (max-width: 1000px) {
     .main2 {
       grid-row: 1 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main2 {
+      grid-row: 1 / span 2; } }
 
 .main3 {
   background-color: #7e152f;
@@ -77,6 +91,9 @@ body {
   @media only screen and (max-width: 800px) {
     .main3 {
       grid-row: 1 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main3 {
+      grid-row: 1 / span 2; } }
 
 .main4 {
   background-color: #141f02;
@@ -88,6 +105,10 @@ body {
   @media only screen and (max-width: 800px) {
     .main4 {
       grid-row: 4 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main4 {
+      grid-column: 4 / span 4;
+      grid-row: 3 / span 2; } }
 
 .main5 {
   background-color: #06f83a;
@@ -99,6 +120,10 @@ body {
   @media only screen and (max-width: 800px) {
     .main5 {
       grid-row: 4 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main5 {
+      grid-column: 4 / span 5;
+      grid-row: 5 / span 2; } }
 
 .main6 {
   background-color: #14a1ac;
@@ -110,6 +135,9 @@ body {
   @media only screen and (max-width: 800px) {
     .main6 {
       grid-row: 6 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main6 {
+      grid-row: 5 / span 3; } }
 
 .main7 {
   background-color: #cbd8b6;
@@ -121,6 +149,9 @@ body {
   @media only screen and (max-width: 800px) {
     .main7 {
       grid-row: 7 / span 4; } }
+  @media only screen and (max-width: 600px) {
+    .main7 {
+      grid-row: 7 / span 3; } }
 
 .main8 {
   background-color: #e9218f;
@@ -132,6 +163,9 @@ body {
   @media only screen and (max-width: 800px) {
     .main8 {
       grid-row: 7 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main8 {
+      grid-row: 7 / span 2; } }
 
 .main9 {
   background-color: #8d231b;
@@ -143,6 +177,9 @@ body {
   @media only screen and (max-width: 800px) {
     .main9 {
       grid-row: 9 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main9 {
+      grid-row: 8 / span 2; } }
 
 .main10 {
   background-color: #db1305;
@@ -154,6 +191,9 @@ body {
   @media only screen and (max-width: 800px) {
     .main10 {
       grid-row: 10 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main10 {
+      grid-row: 9 / span 2; } }
 
 .main11 {
   background-color: #7bb2d6;
@@ -165,6 +205,9 @@ body {
   @media only screen and (max-width: 800px) {
     .main11 {
       grid-row: 12 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main11 {
+      grid-row: 10 / span 3; } }
 
 .main12 {
   background-color: #e761af;
@@ -177,6 +220,9 @@ body {
     .main12 {
       grid-row: 11 / span 3;
       grid-column: 4 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main12 {
+      grid-row: 10 / span 2; } }
 
 .main13 {
   background-color: #48cf13;
@@ -189,9 +235,12 @@ body {
     .main13 {
       grid-row: 14 / span 3;
       grid-column: 4 / span 5; } }
+  @media only screen and (max-width: 600px) {
+    .main13 {
+      grid-row: 12 / span 3; } }
 
 .main14 {
-  background-color: #eb13aa;
+  background-color: #220f1c;
   grid-row: 21 / span 4;
   grid-column: 4 / span 2; }
   @media only screen and (max-width: 1000px) {
@@ -201,6 +250,9 @@ body {
     .main14 {
       grid-row: 15 / span 2;
       grid-column: 1 / span 3; } }
+  @media only screen and (max-width: 600px) {
+    .main14 {
+      grid-row: 13 / span 2; } }
 
 header {
   background-color: #d76067;
