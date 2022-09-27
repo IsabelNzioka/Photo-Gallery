@@ -1,0 +1,14 @@
+header {
+  background-color: #d76067;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+  /* grid-column: sidebar-start / full-end; */
+  grid-row: 1;
+  /* grid-area: head; */
+}
+
+footer {
+  grid-row: 3;
+  background-color: #d76067;
+}
