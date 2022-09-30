@@ -19,6 +19,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #3d1f1d;
+  font-size: 1.6rem;
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
   grid-template-columns: 100%;
 
   @media only screen and (max-width: 1000px) {
-    grid-template-rows: 20vh 245vh 20vh;
+    grid-template-rows: 18vh 245vh 20vh;
   }
 
   @media only screen and (max-width: 800px) {
@@ -36,6 +37,10 @@ body {
 
   @media only screen and (max-width: 600px) {
     grid-template-rows: 20vh 178vh 20vh;
+  }
+
+  @media only screen and (max-width: 350px) {
+    grid-template-rows: 20vh 278vh 20vh;
   }
 }
 
