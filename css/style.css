@@ -27,16 +27,13 @@ body {
       grid-template-rows: 18vh 245vh 20vh; } }
   @media only screen and (max-width: 950px) {
     .container {
-      grid-template-rows: 15vh 215vh 20vh; } }
+      grid-template-rows: 17vh 215vh 20vh; } }
   @media only screen and (max-width: 800px) {
     .container {
-      grid-template-rows: 15vh 215vh 20vh; } }
+      grid-template-rows: 17vh 215vh 20vh; } }
   @media only screen and (max-width: 600px) {
     .container {
-      grid-template-rows: 15vh 178vh 20vh; } }
-  @media only screen and (max-width: 350px) {
-    .container {
-      grid-template-rows: 15vh 278vh 20vh; } }
+      grid-template-rows: 17vh 178vh 20vh; } }
 
 .main {
   grid-row: 2;
@@ -72,8 +69,7 @@ body {
 
 .main1 {
   grid-row: 1 / span 8;
-  grid-column: 1 / span 3;
-  background-color: #81ad70; }
+  grid-column: 1 / span 3; }
   @media only screen and (max-width: 1000px) {
     .main1 {
       grid-row: 1 / span 7; } }
@@ -85,7 +81,6 @@ body {
       grid-row: 1 / span 4; } }
 
 .main2 {
-  background-color: #21c251;
   grid-row: 1 / span 4;
   grid-column: 4 / span 2; }
   @media only screen and (max-width: 1000px) {
@@ -96,7 +91,6 @@ body {
       grid-row: 1 / span 2; } }
 
 .main3 {
-  background-color: #7e152f;
   grid-row: 1 / span 4;
   grid-column: 6 / span 3; }
   @media only screen and (max-width: 800px) {
@@ -107,7 +101,6 @@ body {
       grid-row: 1 / span 2; } }
 
 .main4 {
-  background-color: #141f02;
   grid-row: 5 / span 4;
   grid-column: 4 / span 2; }
   @media only screen and (max-width: 1000px) {
@@ -122,7 +115,6 @@ body {
       grid-row: 3 / span 2; } }
 
 .main5 {
-  background-color: #06f83a;
   grid-row: 5 / span 4;
   grid-column: 6 / span 2; }
   @media only screen and (max-width: 1000px) {
@@ -137,7 +129,6 @@ body {
       grid-row: 5 / span 2; } }
 
 .main6 {
-  background-color: #14a1ac;
   grid-row: 9 / span 4;
   grid-column: 1 / span 3; }
   @media only screen and (max-width: 1000px) {
@@ -151,7 +142,6 @@ body {
       grid-row: 5 / span 3; } }
 
 .main7 {
-  background-color: #df8715;
   grid-row: 9 / span 8;
   grid-column: 4 / span 3; }
   @media only screen and (max-width: 1000px) {
@@ -165,7 +155,6 @@ body {
       grid-row: 7 / span 3; } }
 
 .main8 {
-  background-color: #e9218f;
   grid-row: 9 / span 4;
   grid-column: 7 / span 2; }
   @media only screen and (max-width: 1000px) {
@@ -179,7 +168,6 @@ body {
       grid-row: 7 / span 2; } }
 
 .main9 {
-  background-color: #6e6160;
   grid-row: 13 / span 4;
   grid-column: 2 / span 2; }
   @media only screen and (max-width: 1000px) {
@@ -193,7 +181,6 @@ body {
       grid-row: 8 / span 2; } }
 
 .main10 {
-  background-color: #db1305;
   grid-row: 13 / span 4;
   grid-column: 7 / span 2; }
   @media only screen and (max-width: 1000px) {
@@ -207,7 +194,6 @@ body {
       grid-row: 9 / span 2; } }
 
 .main11 {
-  background-color: #7bb2d6;
   grid-row: 17 / span 8;
   grid-column: 1 / span 3; }
   @media only screen and (max-width: 1000px) {
@@ -221,7 +207,6 @@ body {
       grid-row: 10 / span 3; } }
 
 .main12 {
-  background-color: #e761af;
   grid-row: 17 / span 4;
   grid-column: 4 / span 2; }
   @media only screen and (max-width: 1000px) {
@@ -236,7 +221,6 @@ body {
       grid-row: 10 / span 2; } }
 
 .main13 {
-  background-color: #48cf13;
   grid-row: 17 / span 8;
   grid-column: 6 / span 3; }
   @media only screen and (max-width: 1000px) {
@@ -251,7 +235,6 @@ body {
       grid-row: 12 / span 3; } }
 
 .main14 {
-  background-color: #220f1c;
   grid-row: 21 / span 4;
   grid-column: 4 / span 2; }
   @media only screen and (max-width: 1000px) {
@@ -264,26 +247,6 @@ body {
   @media only screen and (max-width: 600px) {
     .main14 {
       grid-row: 13 / span 2; } }
-
-.heading-tertiary {
-  color: #151616;
-  font-size: 2rem;
-  padding-bottom: 1rem; }
-
-.heading-primary:after,
-.heading-secondary:after {
-  display: block;
-  height: 2px;
-  background-color: #ef4565;
-  content: " ";
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 15px; }
-
-.Paragraph {
-  line-height: 1.4;
-  margin-bottom: 4rem;
-  padding-top: 2rem; }
 
 .header {
   grid-column: side-start/side-end;
@@ -298,8 +261,10 @@ body {
 .logo {
   grid-row: 1;
   grid-column: 5 / span 2;
-  letter-spacing: 4px;
-  padding: 2rem 0; }
+  letter-spacing: 6px;
+  font-size: 3.2rem;
+  padding: 2rem 0;
+  padding-bottom: 2rem; }
   @media only screen and (max-width: 1100px) {
     .logo {
       grid-column: 5 / span 3; } }
@@ -307,10 +272,10 @@ body {
     .logo {
       grid-column: 1 / span 7;
       padding-left: 4rem; } }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     .logo {
       grid-column: 1 / span 8;
-      font-size: 1.7rem;
+      font-size: 2rem;
       padding-left: 2rem; } }
 
 .menu {
@@ -319,7 +284,8 @@ body {
   margin: 0 auto;
   color: #080102;
   font-size: 1.6rem;
-  transition: 0.3s ease; }
+  transition: 0.3s ease;
+  background-color: #91d1d1; }
   @media only screen and (max-width: 1100px) {
     .menu {
       grid-column: 3 / span 7; } }
@@ -330,9 +296,12 @@ body {
       top: 70px;
       width: 100%;
       height: 50%;
-      background-color: #eb244c; }
+      margin-top: 2rem; }
       .menu.active {
         left: 0; } }
+  @media only screen and (max-width: 320px) {
+    .menu {
+      margin-top: 4rem; } }
   .menu ul {
     display: flex;
     list-style: none;
@@ -348,9 +317,10 @@ body {
       text-decoration: none;
       color: inherit;
       transition: 0.7s ease; }
-      .menu ul a:hover {
-        color: #ef4565;
-        font-size: 1.7rem; }
+      .menu ul a:hover, .menu ul a.active {
+        color: #ce1e3e;
+        font-size: 1.7rem;
+        border-bottom: 2px solid #ef4565; }
   @media only screen and (max-width: 1100px) {
     .menu li {
       padding: 1rem; } }
@@ -360,7 +330,7 @@ body {
   display: none;
   grid-column: 10 / span 1;
   cursor: pointer;
-  margin-top: 2.4rem; }
+  margin-top: 2.5rem; }
 
 .bar {
   display: block;
@@ -369,7 +339,7 @@ body {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #97743c; }
+  background-color: #ce1e3e; }
 
 @media only screen and (max-width: 950px) {
   .hamburger {
@@ -387,9 +357,8 @@ header {
   display: grid;
   grid-template-rows: repeat(2, 10vh);
   grid-template-columns: repeat(8, 100px);
-  background-color: #5c5714;
-  text-align: center;
-  /* grid-template-columns: 100px 100px 100px 100px 100px; */ }
+  background-color: #91d1d1;
+  text-align: center; }
 
 footer {
   grid-row: 3; }

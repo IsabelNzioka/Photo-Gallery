@@ -31,19 +31,15 @@ body {
     grid-template-rows: 18vh 245vh 20vh;
   }
   @media only screen and (max-width: 950px) {
-    grid-template-rows: 15vh 215vh 20vh;
+    grid-template-rows: 17vh 215vh 20vh;
   }
 
   @media only screen and (max-width: 800px) {
-    grid-template-rows: 15vh 215vh 20vh;
+    grid-template-rows: 17vh 215vh 20vh;
   }
 
   @media only screen and (max-width: 600px) {
-    grid-template-rows: 15vh 178vh 20vh;
-  }
-
-  @media only screen and (max-width: 350px) {
-    grid-template-rows: 15vh 278vh 20vh;
+    grid-template-rows: 17vh 178vh 20vh;
   }
 }
 
