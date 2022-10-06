@@ -27,16 +27,16 @@ body {
       grid-template-rows: 18vh 245vh 20vh; } }
   @media only screen and (max-width: 950px) {
     .container {
-      grid-template-rows: 10vh 215vh 20vh; } }
+      grid-template-rows: 15vh 215vh 20vh; } }
   @media only screen and (max-width: 800px) {
     .container {
-      grid-template-rows: 10vh 215vh 20vh; } }
+      grid-template-rows: 15vh 215vh 20vh; } }
   @media only screen and (max-width: 600px) {
     .container {
-      grid-template-rows: 10vh 178vh 20vh; } }
+      grid-template-rows: 15vh 178vh 20vh; } }
   @media only screen and (max-width: 350px) {
     .container {
-      grid-template-rows: 10vh 278vh 20vh; } }
+      grid-template-rows: 15vh 278vh 20vh; } }
 
 .main {
   grid-row: 2;
@@ -287,13 +287,13 @@ body {
 
 .header {
   grid-column: side-start/side-end;
-  background-color: #cadd23;
+  background-color: #91d1d1;
   display: grid;
   grid-template-rows: repeat(2, 10vh);
   grid-template-columns: repeat(10, 1fr); }
   @media only screen and (max-width: 950px) {
     .header {
-      grid-template-rows: 10vh; } }
+      grid-template-rows: 15vh; } }
 
 .logo {
   grid-row: 1;
@@ -307,6 +307,11 @@ body {
     .logo {
       grid-column: 1 / span 7;
       padding-left: 4rem; } }
+  @media only screen and (max-width: 400px) {
+    .logo {
+      grid-column: 1 / span 8;
+      font-size: 1.7rem;
+      padding-left: 2rem; } }
 
 .menu {
   grid-row: 2;
